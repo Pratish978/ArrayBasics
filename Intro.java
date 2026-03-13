@@ -1,5 +1,3 @@
-//Defination of Arrays:-
-//List of elements of same type placed in contiguous memory locations is called an array.
 
 public class Intro {
     public static void main(String[] args) {
@@ -29,3 +27,6 @@ public class Intro {
         }
     }
 }
+
+//Defination of Arrays:-
+//List of elements of same type placed in contiguous memory locations is called an array.

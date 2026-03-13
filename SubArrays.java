@@ -1,14 +1,15 @@
 public class SubArrays {
+    
     public static void PrintSubArrays(int num[]){
         int ts=0;
         for(int i=0;i<num.length;i++){
             for(int j=i;j<num.length;j++){
-                System.out.print("[");
+                System.out.print("[ ");
                 for(int k=i;k<=j;k++){
                     System.out.print(num[k]+" ");
                 }
+                System.out.print("]");
                 ts++;
-                System.out.print("] ");
             }
             System.out.println();
         }
@@ -21,4 +22,4 @@ public class SubArrays {
     }
 }
 
-//n(n+1)/2
+//n(n+1)/2  = 
